@@ -8,10 +8,13 @@ package edu.gatech.oad.antlab.person;
  * @author Bob
  * @version 1.1
  */
+<<<<<<< HEAD
+=======
 
 import java.util.ArrayList;
 import java.util.List;
 
+>>>>>>> aded0f8a8d1ec4a6b52ef778226c09b16156d444
 public class Person2 {
     /** Holds the persons real name */
     private String name;
@@ -35,6 +38,9 @@ public class Person2 {
 	 */
 	private String calc(String input) {
 	  //Person 2 put your implementation here
+<<<<<<< HEAD
+	  return null;
+=======
 	    List<Character> chars = new ArrayList<Character>();
         for(char c : input.toCharArray()){
             chars.add(c);
@@ -48,6 +54,7 @@ public class Person2 {
         }
         
         return output;
+>>>>>>> aded0f8a8d1ec4a6b52ef778226c09b16156d444
 	}
 	/**
 	 * Return a string rep of this object

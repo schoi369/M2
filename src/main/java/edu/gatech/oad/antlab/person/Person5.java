@@ -31,6 +31,9 @@ public class Person5 {
 	 */
 	private String calc(String input) {
 	  //Person 5 put your implementation here
+<<<<<<< HEAD
+	  return null;
+=======
 	  String newStr = "";
 	  for (int i = 0; i < input.length() - 2; i++) {
 	  	newStr += input.charAt(i + 2);
@@ -39,6 +42,7 @@ public class Person5 {
 	  newStr += input.charAt(1);
 	  System.out.println(newStr);
 	  return newStr;
+>>>>>>> aded0f8a8d1ec4a6b52ef778226c09b16156d444
 	}
 	
 	/**
